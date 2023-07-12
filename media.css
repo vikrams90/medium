@@ -1,0 +1,103 @@
+@media (max-width:768px) {
+    .mobile-hide{
+        display: none;
+    }
+    .navbar{
+        width: 90%;
+        padding: 20px 0;
+        z-index: 99;
+    }
+    .nav-links{
+        padding: 0;
+    }
+
+    .hero{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-container{
+        justify-content: start;
+    }
+
+    .hero-text{
+        width: 100%;
+    }
+
+    .hero-text h1{
+        font-size: 78px;
+    }
+
+    .hero-text p{
+        width: 400px;
+        font-size: 21px;
+    }
+
+    .hero-text button{
+        font-size: 24px;
+    }
+
+    .trend-container{
+        width: 90%;
+    }
+
+    .trend-heading h2{
+        font-size: 16px;
+    }
+
+    .trend-icon{
+        width: 25px;
+        height: 25px; 
+    }
+
+    .trend-card{
+        width: 100%;
+    }
+
+    .section-container{
+        flex-direction: column-reverse;
+    }
+
+    .sticky-section{
+        position: static;
+        width: 100%;
+        align-items: center;
+    }
+
+    .sticky{
+        position: static;
+        width: 90%;
+    }
+
+    .sticky ul{
+        display: none;
+    }
+
+    .section-container{
+        align-items: center;
+    }
+
+    .card-section{
+        width: 90%;
+    }
+
+    .card-news{
+        gap: 20px;
+    }
+
+    .news-text{
+        width: 70%;
+    }
+
+    .news-text p{
+        display: none;
+    }
+
+    .image-news{
+        width: 30%;
+    }
+
+
+
+
+}
